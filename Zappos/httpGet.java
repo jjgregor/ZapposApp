@@ -116,7 +116,7 @@ public class httpGet extends Activity {
 	}
 	public static Items getPro(ArrayList<Items> item) {
 		String search = "http://api.zappos.com/Search?search_term="; //API search call
-		String key = "&key=a73121520492f88dc3d33daf2103d7574f1a3166"; // key that was provided to me
+		String key = "&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; // key that was provided to me
 		Gson g = new Gson();
 		Items pro = new Items();
 		try {
