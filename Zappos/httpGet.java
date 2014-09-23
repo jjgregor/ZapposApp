@@ -94,7 +94,7 @@ public class httpGet extends Activity {
 	public static ArrayList<Items> getResult(String message) throws IOException, JSONException{
 		ArrayList<Items> pro = new ArrayList<Items>();
 		String search = "http://api.zappos.com/Search?search_term="; //API search call
-		String key = "&key=a73121520492f88dc3d33daf2103d7574f1a3166"; // key that was provided to me
+		String key = "&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; // key that was provided to me
 
 		String res = httpGet.getRequest(search + message + key);
 		Object jsonResult = JSONValue.parse(res);
